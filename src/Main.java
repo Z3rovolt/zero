@@ -10,6 +10,6 @@ public class Main {
         char sym = ' ';
         String line = "aleksey";
         String surName = "popov";
-        System.out.println(line + " "+ surName);
+        System.out.println(line + " " + surName);
     }
 }
