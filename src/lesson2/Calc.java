@@ -8,7 +8,7 @@ public class Calc {
 
 
     public static void main(String[] args) {
-        int number1, number2;
+        double number1, number2;
         String operation;
         System.out.println("enter number1");
         number1 = SCANNER.nextInt();
@@ -35,7 +35,8 @@ public class Calc {
             case "/":
                 System.out.println("enter number2");
                 number2 = SCANNER.nextInt();
-                System.out.println(number1 / number2);break;
+                System.out.println(number1 / number2);
+                break;
 
         }
 
