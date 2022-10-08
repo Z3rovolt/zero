@@ -11,7 +11,7 @@ public class Calc {
         double number1, number2;
         String operation;
         System.out.println("enter number1");
-        number1 = SCANNER.nextInt();
+        number1 = SCANNER.nextDouble();
         System.out.println("enter operation");
         operation = SCANNER.next();
 
@@ -19,22 +19,22 @@ public class Calc {
         switch (operation) {
             case "+":
                 System.out.println("enter number2");
-                number2 = SCANNER.nextInt();
+                number2 = SCANNER.nextDouble();
                 System.out.println(number1 + number2);
                 break;
             case "-":
                 System.out.println("enter number2");
-                number2 = SCANNER.nextInt();
+                number2 = SCANNER.nextDouble();
                 System.out.println(number1 - number2);
                 break;
             case "*":
                 System.out.println("enter number2");
-                number2 = SCANNER.nextInt();
+                number2 = SCANNER.nextDouble();
                 System.out.println(number1 * number2);
                 break;
             case "/":
                 System.out.println("enter number2");
-                number2 = SCANNER.nextInt();
+                number2 = SCANNER.nextDouble();
                 System.out.println(number1 / number2);
                 break;
 

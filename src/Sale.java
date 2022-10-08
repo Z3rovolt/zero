@@ -24,13 +24,13 @@ public class Sale {
         else if(n>a && a>b){
             System.out.println(n-(n*y)/100);
         }
-        else if(n>b && b>a){
-            System.out.println(n-(n*x)/100);
-        }
-        else if(n>a && a==b);{
+        else if (n>a && a<b && b>n){
             System.out.println(n-(n*y)/100);
+        }
+        else if(n>b && b>a ){
             System.out.println(n-(n*x)/100);
         }
+
     }
 
 }
