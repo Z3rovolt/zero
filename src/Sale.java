@@ -21,11 +21,15 @@ public class Sale {
         if (n<a && n<b){
             System.out.println(n);
         }
-        else if(n>a){
-            System.out.println((n*y)/100);
+        else if(n>a && a>b){
+            System.out.println(n-(n*y)/100);
         }
-        else if(n>b){
-            System.out.println((n*x)/100);
+        else if(n>b && b>a){
+            System.out.println(n-(n*x)/100);
+        }
+        else if(n>a && a==b);{
+            System.out.println(n-(n*y)/100);
+            System.out.println(n-(n*x)/100);
         }
     }
 
