@@ -29,7 +29,7 @@ public class mathGrade8 {
         else if (d>0){
             x1=((-b) + Math.sqrt(d))/(2*a);
             x2=((-b) - Math.sqrt(d))/(2*a);
-            System.out.println(x1+" "+x2);
+            System.out.println(x1+" e"+x2);
         }
         else if(d==0){
             x1=((-b) + Math.sqrt(d))/(2*a);
