@@ -1,9 +1,7 @@
 package lesson3;
 
-import java.util.Scanner;
-
 public class Cycle {
-    static Scanner SCANNER = new Scanner(System.in);
+
 
 
     public static void main(String[] args) {
