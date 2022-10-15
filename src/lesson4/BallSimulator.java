@@ -23,15 +23,17 @@ public class BallSimulator {
         return t;
     }
 
+
     public static void calculations(double g, double t) {
         double c;
-        for (double i = 0 ; i <= 5; i++) {
+        for (double i = 0 ; i >-1; i++) {
             c = t - (g * ((i * i) / 2));
-            if (c > 0) {
+            if (c > 0)  {
                 System.out.println("ball will be at " + c + " meters " + " after " + i + " seconds ");
             }
             if (c < 0) {
                 System.out.println("ball is on the ground after " + i + " seconds ");
+                break;
 
 
             }
